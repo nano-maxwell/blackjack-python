@@ -10,8 +10,6 @@ def setup():
     input("Welcome to BlackJack!\nClick enter to begin. ")
     deal()
     deal()
-    print("\nAces", playerAces)
-    print(drawnCards)
     print("Your total:", getPlayerValue())
     print("Dealer's total:", getDealerValue())
     checkCondition()
